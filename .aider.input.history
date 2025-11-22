@@ -114,3 +114,77 @@
 +```
 +
 +Generate an app logo and update the app metadata title and description.
+
+# 2025-11-22 14:55:33.225985
++Cancel and delete any previously created game. Start completely from scratch and create a brand new game with the following specifications:
++
++Game Title/Concept: "Color Rush" – A fast-paced "find and tap the matching colors" game.
++
++Gameplay:
++- Create a grid of 7 rows × 5 columns (35 clickable squares in total).
++- Each square must be filled with a random solid color.
++- Use only a set of 8-10 common, clearly distinguishable colors (e.g., red, blue, green, yellow, purple, orange, pink, brown, black, white, cyan, lime, etc.). Make sure the colors are very different from each other so they are easy to recognize.
++
++Layout (top to bottom):
++1. Top bar containing:
++   - A large example color swatch (the target color for the current round).
++   - Next to it, clearly display the name of the color (optional but recommended).
++   - A countdown timer (format: 10.0 seconds, with one decimal place).
++
++2. Below the top bar: the 7×5 grid of colored squares.
++
++Rules and mechanics:
++- At the start of each round, randomly choose one of the colors as the "target color" and show it in the top bar.
++- Randomly fill all 35 grid squares with colors (including several squares of the target color). There must always be at least 3–10 squares of the target color.
++- The timer starts at 10 seconds for the first round and counts down to 0.
++- The player must tap ONLY the squares that exactly match the target color shown at the top.
++- Tapping a wrong color does nothing negative (no penalty), but it wastes time.
++- As soon as the player has correctly tapped EVERY square that matches the target color, the round is instantly won:
++   - The timer immediately freezes/stops at the remaining time.
++   - A "Round Complete!" message appears briefly.
++   - The next round automatically starts after 1 second.
++- For each successfully completed round, the starting time for the next round decreases by 1 second (10 → 9 → 8 → 7 → ... down to a minimum of 2 or 1 second).
++- If the timer reaches 0 before the player finishes tapping all correct squares, the game ends and shows the final score (number of rounds completed).
++
++Additional requirements:
++- Make the game visually clean, colorful, and mobile-friendly (large tap targets).
++- Add a score counter: "Round X" or "Score: X rounds".
++- After game over, show the final score and a "Play Again" button.
++- Include satisfying sound effects (optional but preferred) for correct taps, round win, and game over.
+
+# 2025-11-22 14:55:33.228518
++Cancel and delete any previously created game. Start completely from scratch and create a brand new game with the following specifications:
++
++Game Title/Concept: "Color Rush" – A fast-paced "find and tap the matching colors" game.
++
++Gameplay:
++- Create a grid of 7 rows × 5 columns (35 clickable squares in total).
++- Each square must be filled with a random solid color.
++- Use only a set of 8-10 common, clearly distinguishable colors (e.g., red, blue, green, yellow, purple, orange, pink, brown, black, white, cyan, lime, etc.). Make sure the colors are very different from each other so they are easy to recognize.
++
++Layout (top to bottom):
++1. Top bar containing:
++   - A large example color swatch (the target color for the current round).
++   - Next to it, clearly display the name of the color (optional but recommended).
++   - A countdown timer (format: 10.0 seconds, with one decimal place).
++
++2. Below the top bar: the 7×5 grid of colored squares.
++
++Rules and mechanics:
++- At the start of each round, randomly choose one of the colors as the "target color" and show it in the top bar.
++- Randomly fill all 35 grid squares with colors (including several squares of the target color). There must always be at least 3–10 squares of the target color.
++- The timer starts at 10 seconds for the first round and counts down to 0.
++- The player must tap ONLY the squares that exactly match the target color shown at the top.
++- Tapping a wrong color does nothing negative (no penalty), but it wastes time.
++- As soon as the player has correctly tapped EVERY square that matches the target color, the round is instantly won:
++   - The timer immediately freezes/stops at the remaining time.
++   - A "Round Complete!" message appears briefly.
++   - The next round automatically starts after 1 second.
++- For each successfully completed round, the starting time for the next round decreases by 1 second (10 → 9 → 8 → 7 → ... down to a minimum of 2 or 1 second).
++- If the timer reaches 0 before the player finishes tapping all correct squares, the game ends and shows the final score (number of rounds completed).
++
++Additional requirements:
++- Make the game visually clean, colorful, and mobile-friendly (large tap targets).
++- Add a score counter: "Round X" or "Score: X rounds".
++- After game over, show the final score and a "Play Again" button.
++- Include satisfying sound effects (optional but preferred) for correct taps, round win, and game over.
